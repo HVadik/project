@@ -1,0 +1,284 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5f7fa;
+  font-family: "Montserrat", sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.wrapper {
+  background: #ffffff;
+  display: flex;
+  max-width: 70%;
+  margin: 0 auto;
+  box-shadow: 5px 9px 20px rgba(0, 0, 0, 0.15);
+}
+
+.sidebar-l {
+  background: #1e2939;
+  width: 370px;
+  padding-top: 40px;
+}
+
+.contacts-conteiner {
+  margin-top: 50px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.l-sidebar-conteiner-title {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.contacts-conteiner-links {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #757c86;
+}
+
+.contacts-conteiner-links-type {
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+
+.tech-skills-conteiner {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.l-sidebar-li {
+  color: #ff6b08;
+  margin-left: 15px;
+}
+
+.soft-skills-conteiner {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.l-sidebar-items {
+  font-size: 14px;
+  font-weight: 400;
+  color: #adb1b7;
+  line-height: 24px;
+}
+
+.about-me-main {
+  padding-top: 110px;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-bottom: 110px;
+}
+
+.about-me-top {
+  margin-left: 60px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.now-work {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.my-name {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 89px;
+}
+
+.about-me-spn {
+  width: 413px;
+  height: 107px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.42px;
+}
+
+.p-we {
+  color: #000000;
+  font-size: 22px;
+  font-weight: 700;
+}
+.ab-me-projects {
+  margin-top: 64px;
+  margin-left: 60px;
+  margin-right: 100px;
+  color: #595959;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+.ab-me-projects-list {
+  padding-left: 15px;
+  letter-spacing: 0.42px;
+}
+
+/* sps Anne Kuzminovoj za link v chate*/
+
+.param {
+  line-height: 1.4;
+}
+
+.param__prop {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  color: #939393;
+}
+
+.param__prop:after {
+  content: "";
+  position: absolute;
+  margin-left: 0.3em;
+  bottom: 0.35em;
+  width: 100%;
+  border-bottom: 0.1em dotted;
+}
+
+.param__value {
+  float: right;
+  padding-left: 0.2em;
+}
+
+.param--align:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.param--align .param__prop {
+  float: left;
+  width: 70%;
+}
+
+.param--align .param__value {
+  float: right;
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.list__item {
+  margin-bottom: 10px;
+}
+
+.list--gutter {
+  padding-top: 10px;
+  padding-left: 15px;
+  font-weight: 700;
+}
+
+.ab-me-work-ex {
+  margin-top: 50px;
+  margin-left: 60px;
+  margin-right: 100px;
+}
+
+.exp-b {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #000000;
+}
+
+.exp-o {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #ff6b08;
+}
+
+.exp-list {
+  color: #c0c0c0;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  padding-left: 25px;
+}
+
+.exp-time {
+  color: #a8a8a8;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-top: 14px;
+  margin-bottom: 10px;
+}
+.fk-wall {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #000000;
+}
+
+.work1 {
+  margin-top: 20px;
+  margin-left: 60px;
+  margin-right: 100px;
+}
+
+.work2 {
+  margin-top: 25px;
+  margin-left: 60px;
+  margin-right: 100px;
+}
+
+.work3 {
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 100px;
+  margin-bottom: 50px;
+}
+
+.ab-me-education {
+  margin-left: 60px;
+  margin-right: 100px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.education {
+  margin-left: 60px;
+  margin-right: 100px;
+}
+
+.managment {
+  color: #000000;
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.edu-place {
+  color: #ff6b08;
+  margin-left: 60px;
+  margin-top: 20px;
+  font-size: 16px;
+  font-weight: 700;
+}
